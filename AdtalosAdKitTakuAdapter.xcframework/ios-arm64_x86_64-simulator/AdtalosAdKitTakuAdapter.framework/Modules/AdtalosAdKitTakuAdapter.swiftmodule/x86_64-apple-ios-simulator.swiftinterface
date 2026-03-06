@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios12-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdtalosAdKitTakuAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AdtalosAdKit
+import AnyThinkSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(AdtalosTakuBaseAdapter) public class AdtalosTakuBaseAdapter : AnyThinkSDK.ATBaseMediationAdapter {
+  @objc public static let adapterSDKVersion: Swift.String
+  @objc override dynamic public func initializeClassName() -> Swift.AnyClass
+  public static func generateC2SBidPriceInfo(price: Swift.Int64) -> [Swift.String : Any]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var currentAd: AdtalosAdKit.BaseAd? {
+    get
+  }
+  #endif
+  @objc override dynamic public func didReceiveBid(_ result: AnyThinkSDK.ATBidWinLossResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosTakuInfoAdapter) public class AdtalosTakuInfoAdapter : AnyThinkSDK.ATBaseInitAdapter {
+  @objc public static func setIdfa(_ idfa: Swift.String)
+  @objc public static func setAcquireIDFA(_ enabled: Swift.Bool)
+  @objc public static func setAcquireIDFV(_ enabled: Swift.Bool)
+  @objc public static func setAcquireUserAgent(_ enabled: Swift.Bool)
+  @objc public static func setAcquireGeoInfo(_ enabled: Swift.Bool)
+  @objc public static func setAcquireInstalledApps(_ enabled: Swift.Bool)
+  @objc public static func setEnableLocalLog(_ enabled: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func setCaids(_ caids: [AdtalosAdKit.Caid]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getCaids() -> [AdtalosAdKit.Caid]?
+  #endif
+  @objc override dynamic public func initWith(_ adInitArgument: AnyThinkSDK.ATAdInitArgument)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public class func sdkVersion() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public class func adapterVersion() -> Swift.String?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosSplashAdapter) public class AdtalosSplashAdapter : AdtalosAdKitTakuAdapter.AdtalosTakuBaseAdapter, AnyThinkSDK.ATBaseSplashAdapterProtocol {
+  @objc public var adStatusBridge: AnyThinkSDK.ATSplashAdStatusBridge!
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with argument: AnyThinkSDK.ATAdMediationArgument)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public class func getLoadAdAdapter(_ argument: AnyThinkSDK.ATAdMediationArgument) -> AnyThinkSDK.ATBaseMediationAdapter?
+  #endif
+  @objc public func showSplashAd(in window: UIKit.UIWindow, in inViewController: UIKit.UIViewController, parameter: [Swift.AnyHashable : Any])
+  @objc public func adReadySplash(withInfo info: [Swift.AnyHashable : Any]) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  override public var currentAd: AdtalosAdKit.BaseAd? {
+    get
+  }
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AdtalosSplashDelegate : ObjectiveC.NSObject, AdtalosAdKit.Listener {
+  @objc public var adStatusBridge: AnyThinkSDK.ATSplashAdStatusBridge?
+  @objc public var splashAd: AdtalosAdKit.SplashAd?
+  @objc public func onBeforeRequest()
+  @objc public func onLoaded()
+  @objc public func onFailedToLoad(_ error: any Swift.Error)
+  @objc public func onRendered()
+  @objc public func onShown()
+  @objc public func onClicked()
+  @objc public func onLeftApplication()
+  @objc public func onClosed()
+  @objc override dynamic public init()
+  @objc deinit
+}

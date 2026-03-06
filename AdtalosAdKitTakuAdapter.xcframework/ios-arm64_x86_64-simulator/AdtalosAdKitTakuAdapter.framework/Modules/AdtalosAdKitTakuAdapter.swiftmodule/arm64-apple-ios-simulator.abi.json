@@ -1,0 +1,2232 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdtalosAdKitTakuAdapter",
+    "printedName": "AdtalosAdKitTakuAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosTakuBaseAdapter",
+        "printedName": "AdtalosTakuBaseAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adapterSDKVersion",
+            "printedName": "adapterSDKVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter(cpy)adapterSDKVersion",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C17adapterSDKVersionSSvpZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter(cm)adapterSDKVersion",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C17adapterSDKVersionSSvgZ",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeClassName",
+            "printedName": "initializeClassName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter(im)initializeClassName",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C19initializeClassNameyXlXpyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "objc_name": "initializeClassName",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateC2SBidPriceInfo",
+            "printedName": "generateC2SBidPriceInfo(price:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AdtalosAdKitTakuAdapter0ad4BaseE0C23generateC2SBidPriceInfo5priceSDySSypGs5Int64V_tFZ",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C23generateC2SBidPriceInfo5priceSDySSypGs5Int64V_tFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "currentAd",
+            "printedName": "currentAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.BaseAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseAd",
+                    "printedName": "AdtalosAdKit.BaseAd",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosBaseAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdtalosAdKitTakuAdapter0ad4BaseE0C07currentB00abC00fB0CSgvp",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C07currentB00abC00fB0CSgvp",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.BaseAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BaseAd",
+                        "printedName": "AdtalosAdKit.BaseAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosBaseAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdtalosAdKitTakuAdapter0ad4BaseE0C07currentB00abC00fB0CSgvg",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C07currentB00abC00fB0CSgvg",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveBid",
+            "printedName": "didReceiveBid(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ATBidWinLossResult",
+                "printedName": "AnyThinkSDK.ATBidWinLossResult",
+                "usr": "c:objc(cs)ATBidWinLossResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter(im)didReceiveBidResult:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C13didReceiveBidyySo18ATBidWinLossResultCF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "objc_name": "didReceiveBidResult:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosTakuBaseAdapter",
+                "printedName": "AdtalosAdKitTakuAdapter.AdtalosTakuBaseAdapter",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter(im)init",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0CACycfc",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter",
+        "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4BaseE0C",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "objc_name": "AdtalosTakuBaseAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ATBaseMediationAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AnyThinkSDK.ATBaseMediationAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosTakuInfoAdapter",
+        "printedName": "AdtalosTakuInfoAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setIdfa",
+            "printedName": "setIdfa(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setIdfa:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C7setIdfayySSFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireIDFA",
+            "printedName": "setAcquireIDFA(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setAcquireIDFA:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C14setAcquireIDFAyySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireIDFV",
+            "printedName": "setAcquireIDFV(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setAcquireIDFV:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C14setAcquireIDFVyySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireUserAgent",
+            "printedName": "setAcquireUserAgent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setAcquireUserAgent:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C19setAcquireUserAgentyySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireGeoInfo",
+            "printedName": "setAcquireGeoInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setAcquireGeoInfo:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C013setAcquireGeoF0yySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireInstalledApps",
+            "printedName": "setAcquireInstalledApps(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setAcquireInstalledApps:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C23setAcquireInstalledAppsyySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEnableLocalLog",
+            "printedName": "setEnableLocalLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setEnableLocalLog:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C17setEnableLocalLogyySbFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCaids",
+            "printedName": "setCaids(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AdtalosAdKit.Caid]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdtalosAdKit.Caid]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Caid",
+                        "printedName": "AdtalosAdKit.Caid",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)setCaids:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C8setCaidsyySay0abC04CaidCGSgFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCaids",
+            "printedName": "getCaids()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AdtalosAdKit.Caid]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AdtalosAdKit.Caid]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Caid",
+                        "printedName": "AdtalosAdKit.Caid",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)getCaids",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C8getCaidsSay0abC04CaidCGSgyFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initWith",
+            "printedName": "initWith(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ATAdInitArgument",
+                "printedName": "AnyThinkSDK.ATAdInitArgument",
+                "usr": "c:objc(cs)ATAdInitArgument"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(im)initWithInitArgument:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C8initWithyySo16ATAdInitArgumentCF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "objc_name": "initWithInitArgument:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)sdkVersion",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C10sdkVersionSSSgyFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "sdkVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(cm)adapterVersion",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C14adapterVersionSSSgyFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosTakuInfoAdapter",
+                "printedName": "AdtalosAdKitTakuAdapter.AdtalosTakuInfoAdapter",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter(im)init",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0CACycfc",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuInfoAdapter",
+        "mangledName": "$s23AdtalosAdKitTakuAdapter0ad4InfoE0C",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "objc_name": "AdtalosTakuInfoAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ATBaseInitAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AnyThinkSDK.ATBaseInitAdapter",
+          "AnyThinkSDK.ATSafeModuleObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosSplashAdapter",
+        "printedName": "AdtalosSplashAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adStatusBridge",
+            "printedName": "adStatusBridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ATSplashAdStatusBridge",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                    "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(py)adStatusBridge",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C14adStatusBridgeSo08ATSplashbhI0CSgvp",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "adStatusBridge",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ATSplashAdStatusBridge",
+                        "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                        "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)adStatusBridge",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C14adStatusBridgeSo08ATSplashbhI0CSgvg",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "objc_name": "adStatusBridge",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ATSplashAdStatusBridge",
+                        "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                        "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)setAdStatusBridge:",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C14adStatusBridgeSo08ATSplashbhI0CSgvs",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "objc_name": "setAdStatusBridge:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdtalosAdKitTakuAdapter0a6SplashE0C14adStatusBridgeSo08ATSplashbhI0CSgvM",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C14adStatusBridgeSo08ATSplashbhI0CSgvM",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosSplashAdapter",
+                "printedName": "AdtalosAdKitTakuAdapter.AdtalosSplashAdapter",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)init",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0CACycfc",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ATAdMediationArgument",
+                "printedName": "AnyThinkSDK.ATAdMediationArgument",
+                "usr": "c:objc(cs)ATAdMediationArgument"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)loadADWithArgument:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C6loadAD4withySo21ATAdMediationArgumentC_tF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithArgument:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLoadAdAdapter",
+            "printedName": "getLoadAdAdapter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyThinkSDK.ATBaseMediationAdapter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ATBaseMediationAdapter",
+                    "printedName": "AnyThinkSDK.ATBaseMediationAdapter",
+                    "usr": "c:objc(cs)ATBaseMediationAdapter"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ATAdMediationArgument",
+                "printedName": "AnyThinkSDK.ATAdMediationArgument",
+                "usr": "c:objc(cs)ATAdMediationArgument"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(cm)getLoadAdAdapter:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C07getLoadbE0ySo015ATBaseMediationE0CSgSo04ATAdJ8ArgumentCFZ",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "getLoadAdAdapter:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSplashAd",
+            "printedName": "showSplashAd(in:in:parameter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)showSplashAdInWindow:inViewController:parameter:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C04showfB02inAE9parameterySo8UIWindowC_So16UIViewControllerCSDys11AnyHashableVypGtF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "showSplashAdInWindow:inViewController:parameter:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adReadySplash",
+            "printedName": "adReadySplash(withInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter(im)adReadySplashWithInfo:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C07adReadyF08withInfoSbSDys11AnyHashableVypG_tF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "adReadySplashWithInfo:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "currentAd",
+            "printedName": "currentAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.BaseAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseAd",
+                    "printedName": "AdtalosAdKit.BaseAd",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosBaseAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AdtalosAdKitTakuAdapter0a6SplashE0C07currentB00abC004BaseB0CSgvp",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C07currentB00abC004BaseB0CSgvp",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.BaseAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BaseAd",
+                        "printedName": "AdtalosAdKit.BaseAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosBaseAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdtalosAdKitTakuAdapter0a6SplashE0C07currentB00abC004BaseB0CSgvg",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C07currentB00abC004BaseB0CSgvg",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashAdapter",
+        "mangledName": "$s23AdtalosAdKitTakuAdapter0a6SplashE0C",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "objc_name": "AdtalosSplashAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosTakuBaseAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AdtalosAdKitTakuAdapter.AdtalosTakuBaseAdapter",
+          "AnyThinkSDK.ATBaseMediationAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AnyThinkSDK",
+        "printedName": "AnyThinkSDK",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosSplashDelegate",
+        "printedName": "AdtalosSplashDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adStatusBridge",
+            "printedName": "adStatusBridge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ATSplashAdStatusBridge",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                    "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(py)adStatusBridge",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC14adStatusBridgeSo08ATSplashbiJ0CSgvp",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ATSplashAdStatusBridge",
+                        "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                        "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)adStatusBridge",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC14adStatusBridgeSo08ATSplashbiJ0CSgvg",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyThinkSDK.ATSplashAdStatusBridge?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ATSplashAdStatusBridge",
+                        "printedName": "AnyThinkSDK.ATSplashAdStatusBridge",
+                        "usr": "c:objc(cs)ATSplashAdStatusBridge"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)setAdStatusBridge:",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC14adStatusBridgeSo08ATSplashbiJ0CSgvs",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdtalosAdKitTakuAdapter0A14SplashDelegateC14adStatusBridgeSo08ATSplashbiJ0CSgvM",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC14adStatusBridgeSo08ATSplashbiJ0CSgvM",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "splashAd",
+            "printedName": "splashAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.SplashAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplashAd",
+                    "printedName": "AdtalosAdKit.SplashAd",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosSplashAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(py)splashAd",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC06splashB00abC00fB0CSgvp",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.SplashAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplashAd",
+                        "printedName": "AdtalosAdKit.SplashAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosSplashAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)splashAd",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC06splashB00abC00fB0CSgvg",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.SplashAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplashAd",
+                        "printedName": "AdtalosAdKit.SplashAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosSplashAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)setSplashAd:",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC06splashB00abC00fB0CSgvs",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AdtalosAdKitTakuAdapter0A14SplashDelegateC06splashB00abC00fB0CSgvM",
+                "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC06splashB00abC00fB0CSgvM",
+                "moduleName": "AdtalosAdKitTakuAdapter",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onBeforeRequest",
+            "printedName": "onBeforeRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onBeforeRequest",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC15onBeforeRequestyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onBeforeRequest",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoaded",
+            "printedName": "onLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onLoaded",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC8onLoadedyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onLoaded",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailedToLoad",
+            "printedName": "onFailedToLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onFailedToLoad:",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC14onFailedToLoadyys5Error_pF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onFailedToLoad:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRendered",
+            "printedName": "onRendered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onRendered",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC10onRenderedyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onRendered",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShown",
+            "printedName": "onShown()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onShown",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC7onShownyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onShown",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClicked",
+            "printedName": "onClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onClicked",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC9onClickedyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onClicked",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLeftApplication",
+            "printedName": "onLeftApplication()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onLeftApplication",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC17onLeftApplicationyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onLeftApplication",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClosed",
+            "printedName": "onClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)onClosed",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC8onClosedyyF",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "objc_name": "onClosed",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosSplashDelegate",
+                "printedName": "AdtalosAdKitTakuAdapter.AdtalosSplashDelegate",
+                "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate(im)init",
+            "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateCACycfc",
+            "moduleName": "AdtalosAdKitTakuAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitTakuAdapter@objc(cs)AdtalosSplashDelegate",
+        "mangledName": "$s23AdtalosAdKitTakuAdapter0A14SplashDelegateC",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Listener",
+            "printedName": "Listener",
+            "usr": "c:@M@AdtalosAdKit@objc(pl)AdtalosListener",
+            "mangledName": "$s12AdtalosAdKit8ListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitTakuAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuBaseAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 453,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 550,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 599,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

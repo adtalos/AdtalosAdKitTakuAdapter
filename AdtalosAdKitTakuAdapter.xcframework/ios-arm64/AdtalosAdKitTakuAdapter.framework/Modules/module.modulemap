@@ -1,0 +1,4 @@
+framework module AdtalosAdKitTakuAdapter {
+  header "AdtalosAdKitTakuAdapter-Swift.h"
+  requires objc
+}
