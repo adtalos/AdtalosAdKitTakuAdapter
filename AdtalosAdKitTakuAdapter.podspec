@@ -9,14 +9,14 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKitTakuAdapter"
-  spec.version      = "0.0.1"
-  spec.summary      = "AdtalosAdKit SDK的Taku适配器"
+  spec.version      = "0.0.2"
+  spec.summary      = "AdtalosAdKit 广告 SDK 的Taku Adapter"
 
   spec.description  = <<-DESC
-                   AdtalosAdKit SDK的Taku适配器，提供广告展示和交互功能。
+                   新义互联广告SDK的 Taku Adapter，提供广告展示和交互功能。
                    DESC
 
-  spec.homepage     = "https://github.com/adtalos/AdtalosAdKitTakuAdapter.git"
+  spec.homepage     = "https://github.com/adtalos/AdtalosAdKitTakuAdapter"
 
   spec.license      = { :type => "Apache", :file => "LICENSE" }
 
@@ -30,6 +30,9 @@ Pod::Spec.new do |spec|
     :git => "https://github.com/adtalos/AdtalosAdKitTakuAdapter.git",
     :tag => spec.version.to_s
   }
+
+  spec.dependency 'AdtalosAdKit', '~> 1.0.1'
+  spec.dependency 'AnyThinkiOS', '~> 6.5.41'
 
   spec.swift_versions = ["5.7"]
 
