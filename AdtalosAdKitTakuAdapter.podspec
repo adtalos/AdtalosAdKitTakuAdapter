@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKitTakuAdapter"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "AdtalosAdKit 广告 SDK 的Taku Adapter"
 
   spec.description  = <<-DESC
