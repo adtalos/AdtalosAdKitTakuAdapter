@@ -2173,60 +2173,74 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuBaseAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuBaseAdapter.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.0.1\""
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 453,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 499,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 550,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 599,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 654,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Base\/AdtalosTakuInfoAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 703,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Native\/AdtalosNativeAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitTakuAdapter\/AdtalosAdKitTakuAdapter\/AdtalosAdTakuAdapter\/Native\/AdtalosNativeObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 456,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

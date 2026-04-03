@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKitTakuAdapter"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "AdtalosAdKit 广告 SDK 的Taku Adapter"
 
   spec.description  = <<-DESC
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
     :tag => spec.version.to_s
   }
 
-  spec.dependency 'AdtalosAdKit', '~> 1.0.1'
+  spec.dependency 'AdtalosAdKit', '~> 1.0.2'
   spec.dependency 'AnyThinkiOS', '~> 6.5.41'
 
   spec.swift_versions = ["5.7"]

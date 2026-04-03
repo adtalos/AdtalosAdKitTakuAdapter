@@ -51,6 +51,7 @@ import _SwiftConcurrencyShims
   @objc public var adStatusBridge: AnyThinkSDK.ATSplashAdStatusBridge!
   @objc override dynamic public init()
   @objc override dynamic public func loadAD(with argument: AnyThinkSDK.ATAdMediationArgument)
+  @objc deinit
   #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public class func getLoadAdAdapter(_ argument: AnyThinkSDK.ATAdMediationArgument) -> AnyThinkSDK.ATBaseMediationAdapter?
   #endif
@@ -61,7 +62,6 @@ import _SwiftConcurrencyShims
     get
   }
   #endif
-  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AdtalosSplashDelegate : ObjectiveC.NSObject, AdtalosAdKit.Listener {
   @objc public var adStatusBridge: AnyThinkSDK.ATSplashAdStatusBridge?
